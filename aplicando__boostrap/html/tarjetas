@@ -1,0 +1,266 @@
+<div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img class="card-img" src="../assets/semana 2 enero-06.jpg" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">INSTRUCTIONAL</h5>
+                      <strong class="card-text-before">Traditional E-Learning</strong>
+                      <p class="card-text">Created for cultural purposes, in order to represent tales from popular beliefs.</p>
+                      <div class="cards__btn"> 
+                        <a class="btn-card"  href="#">EXPLORE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img class="card-img" src="../assets/semana 2 enero-06.jpg" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">WALKTHROUGH</h5>
+                      <strong class="card-text-before">Interactive content</strong>
+                      <p class="card-text">Mix of animation with real interviews to tell stories of people during quarantine.</p>
+                      <div class="cards__btn"> 
+                        <a class="btn-card"  href="#">EXPLORE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img class="card-img" src="../assets/semana 2 enero-06.jpg" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">GAMIFICATION</h5>
+                      <strong class="card-text-before">Storytelling experience</strong>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="cards__btn"> 
+                        <a class="btn-card"  href="#">EXPLORE</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col">
+                    <div class="card h-100">
+                        <img class="card-img" src="../assets/semana 2 enero-06.jpg" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">EXPLANATORY VIDEO</h5>
+                        <strong class="card-text-before">Bitezise tutorial</strong>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="cards__btn"> 
+                            <a class="btn-card"  href="#">EXPLORE</a>
+                          </div>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                        <img class="card-img" src="../assets/semana 2 enero-06.jpg" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">DIGITAL TOOLKIT</h5>
+                        <strong class="card-text-before">Step by step document</strong>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="cards__btn"> 
+                            <a class="btn-card"  href="#">EXPLORE</a>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                        <img class="card-img" src="../assets/semana 2 enero-06.jpg" alt="">
+                      <div class="card-body">
+                        <h5 class="card-title">VIRTUAL CLASSROOM</h5>
+                        <strong class="card-text-before">Teaching presentation</strong>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <div class="cards__btn"> 
+                            <a class="btn-card"  href="#">EXPLORE</a>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+              </div>
+
+
+
+
+
+              <section class="service__section container-fluid">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <iframe src="https://www.youtube.com/embed/NPe_fNtPy7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    <div class="card-body">
+                          <h5 class="card-title">MUSIC VIDEO</h5>
+                          <strong class="card-text-before">Stop Motion</strong>
+                          <p class="card-text">Animated for the Venezuelan rock band Candy 66. Award winer of Signis Venezuela</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <iframe src="https://www.youtube.com/embed/k6DMgcmQWkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="card-body">
+                          <h5 class="card-title">TV SPOT</h5>
+                          <strong class="card-text-before">2D Animation</strong>
+                          <p class="card-text">Created for cultural purposes, in order to represent tales from popular beliefs.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <iframe src="https://www.youtube.com/embed/6QBZ7Bdx8rE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <div class="card-body">
+                          <h5 class="card-title">INTERVIEWS</h5>
+                          <strong class="card-text-before">Video & Animation</strong>
+                          <p class="card-text">Mix of animation with real interviews to tell stories of people during quarantine.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <iframe src="https://www.youtube.com/embed/69Uq3UDE4Ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    <div class="card-body">
+                          <h5 class="card-title">COMERCIAL</h5>
+                          <strong class="card-text-before">Stop Motion</strong>
+                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <iframe src="https://www.youtube.com/embed/tHkIcxdVkYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <div class="card-body">
+                            <h5 class="card-title">PROMOTIONAL</h5>
+                            <strong class="card-text-before">Video & Animation</strong>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card h-100">
+                            <iframe src="https://www.youtube.com/embed/h83U6jyF0vE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <div class="card-body">
+                            <h5 class="card-title">INSTRUCTIONAL</h5>
+                            <strong class="card-text-before">2D Animation</strong>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card h-100">
+                            <iframe src="https://www.youtube.com/embed/fQFq8GCSel4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <div class="card-body">
+                            <h5 class="card-title">SALES</h5>
+                            <strong class="card-text-before">2D Animation</strong>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card h-100">
+                            <iframe src="https://www.youtube.com/embed/ucsuYqGk0So" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                      <div class="card-body">
+                            <h5 class="card-title">CORPORATE</h5>
+                            <strong class="card-text-before">Video Editing</strong>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card h-100">
+                            <iframe src="https://www.youtube.com/embed/zrgCsjIoH64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <div class="card-body">
+                            <h5 class="card-title">SHORT FILM</h5>
+                            <strong class="card-text-before">Stop Motion</strong>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+            </section>
+
+
+
+
+            <footer class="footer__section container-fluid">
+              <div class="row align-items-center">
+                  <div class="footer__content col">
+                      <ul class="text3">
+                        <li> <img src="../assets/gmail.png" alt="E-mail icon">E-mail: zajor89@gmail.com</li>
+                        <li> <img src="../assets/whatsapp.png" alt="WhatsApp icon">WhatsApp: +54 911 264-55-232</li>
+                        <li> <img src="../assets/alfiler.png" alt="Location icon">Buenos Aires - Argentina.</li>
+                      </ul>
+                      <div class="social__icons">
+                        <a href="https://www.linkedin.com/in/maria-rojas-airam-80975040/"> <img src="../assets/linkedin (1).png" alt="LinkedIn"></a>
+                        <a href="https://www.instagram.com/airamzajor/?hl=es-la"> <img src="../assets/instagram (1).png" alt="Instagram"></a>
+                        <a href="https://www.facebook.com/AiramZajor89"> <img src="../assets/facebook.png" alt="Facebook"></a>
+                      </div>
+                  </div>
+              </div>
+          </footer>
+
+
+
+
+
+          <section class="service__section container-fluid">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-3 g-4">
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Full name</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">E-mail</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Location you are based on</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                
+                <div class="col-md-4">
+                    <label for="inputType" class="form-label">Graphic Design</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option value="0">Type</option>
+                        <option value="1">Branding</option>
+                        <option value="2">Character Design</option>
+                        <option value="3">Social Media Filters</option>
+                        <option value="4">Interactive Content</option>
+                        <option value="5">Infographics</option>
+                        <option value="6">Presentation Decks</option>
+                      </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="inputAddress" class="form-label">Animation</label>
+                    <select class="form-select" aria-label="Default select example">
+                      <option value="0">Type</option>
+                        <option value="1">Music Video</option>
+                        <option value="2">Publicitary spot</option>
+                        <option value="3">Short Stories</option>
+                        <option value="4">Corporate</option>
+                        <option value="5">Testimonials</option>
+                        <option value="6">Instructional</option>
+                      </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="inputAddress" class="form-label">Learning</label>
+                    <select class="form-select">
+                        <option selected>Type</option>
+                        <option value="1">Web-Based trainning</option>
+                        <option value="2">Gamified Experience</option>
+                        <option value="3">Virtual Classroom</option>
+                      </select>
+                </div>
+                
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Request specifications</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Describe the needs from your brand or bussiness."required rows="3"></textarea>
+                  </div>
+            </div>
+        </section>
+
+
+
+        <ul>
+          <li> <img src="../assets/gmail.png" alt="E-mail icon">E-mail: zajor89@gmail.com</li>
+          <li> <img src="../assets/whatsapp.png" alt="WhatsApp icon">WhatsApp: +54 911 264-55-232</li>
+          <li> <img src="../assets/alfiler.png" alt="Location icon">Buenos Aires - Argentina.</li>
+          <li class="copyright"> © 2022 - Airam Portfolio. All rights reserved.</li>
+        </ul>

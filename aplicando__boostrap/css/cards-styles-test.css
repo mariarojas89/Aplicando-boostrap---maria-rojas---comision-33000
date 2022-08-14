@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.service__section{ 
+    height: 1200px;
+    padding: 50px 300px 50px 300px; 
+}
+
+.card{
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.card:hover .card-title{
+    color: blueviolet;
+    box-shadow: rgba(86, 84, 131, 0.25) 0px 25px 50px -12px;
+}
+
+.card-body:hover{
+    box-shadow: rgba(86, 84, 131, 0.25) 0px 25px 50px -12px;
+}
+
+
+.card-img-top{
+    width: 100px;
+
+}
+
+.card-title{
+    font-size: 25px;
+    margin: 0px 0px 0px 50px; 
+}
+
+
+.card-text{
+    font-size: 16px;
+    margin: 20px 50px 60px 50px;
+}
+
+.cards__btn{
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.footer__section{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content:space-between;
+    text-align: left;
+    height: 300px;
+}
+.tittle3{
+    margin: 0px 0px 10px 0px;
+}
+
+.text3{
+    margin: 20px 150px 0px 0px;
+}
+
