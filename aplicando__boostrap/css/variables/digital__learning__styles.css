@@ -1,3 +1,39 @@
+.navbar {
+  height: 70px;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  z-index: 9; }
+
+.navbar-brand {
+  color: white; }
+
+.navbar-toggler-icon {
+  filter: invert(100%); }
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black; }
+
+.navbar-brand:hover {
+  color: #00FFAF;
+  box-shadow: -3px 22px 30px -12px rgba(44, 255, 192, 0.5);
+  transition: all 0.2s ease-in-out; }
+
+.navbar-nav a {
+  color: white;
+  font-weight: 300;
+  font-size: 12px; }
+  .navbar-nav a[aria-current='page'] {
+    color: #00FFAF; }
+  .navbar-nav a:hover {
+    color: #00FFAF;
+    font-weight: 400;
+    box-shadow: -3px 22px 30px -12px rgba(44, 255, 192, 0.5);
+    transition: all 0.2s ease-in-out; }
+
 * {
   margin: 0;
   padding: 0; }

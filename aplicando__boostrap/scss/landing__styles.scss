@@ -1,110 +1,70 @@
-@import"./variables";
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
-  box-sizing: border-box;
-  color: white;
-  height: 100vh;
-  width: 100%;
-}
-
-.navbar {
-  height: 70px;
-  align-items: center;
-  font-family: "Montserrat", sans-serif;
-  z-index: 9;
-}
-
-.navbar-brand {
-  color: white;
-}
-
-.navbar-toggler-icon {
-  filter: invert(100%);
-}
-
-.nav-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(0, 0, 0);
-}
-
-.navbar-brand:hover {
-  color: $color-principal;
-  box-shadow: -3px 22px 30px -12px rgba(44, 255, 192, 0.5);
-  transition: all 0.2s ease-in-out;
-}
-
-.navbar-nav a {
-  color: white;
-  font-weight: 300;
-  font-size: 12px;
-}
-
-.navbar-nav a:hover {
-  color: $color-principal;
-  font-weight: 400;
-  box-shadow: -3px 22px 30px -12px rgba(44, 255, 192, 0.5);
-  transition: all 0.2s ease-in-out;
-}
+@import"./general";
 
 .top__section__generic {
+  @include top_section(820px, 850px, 820px, 780px, 800px, 600px);
+}
+
+.btn__top {
   display: flex;
   flex-direction: column;
-  font-family: "Montserrat", sans-serif;
-  background: $background-primario;
-  height: 570px;
-  overflow-x: hidden;
-}
-.top__section__generic .top__content__generic {
-  display: flex;
-  text-align: center;
-  padding-top: 50px;
-}
-.top__section__generic .left__info {
-  padding-left: 0px;
   align-items: center;
-  text-align: center;
-}
-.top__section__generic .tittle1 {
-  display: block;
-  font-size: 28px;
-  font-weight: 700;
-  line-break: veryloose;
-  font-family: "Montserrat", sans-serif;
-  margin: 40px 50px 0px 50px;
-  color: $color-principal;
-}
-.top__section__generic .text1 {
-  display: block;
-  font-size: 13px;
-  font-weight: 200;
-  line-break: veryloose;
-  line-height: 1.8;
-  font-family: "Montserrat", sans-serif;
-  margin: 30px 40px 0px 40px;
+  justify-content: center;
 }
 
-.img__mobile {
+.btn__top .btn-demo {
   display: flex;
-  position: relative;
-  justify-items: center;
-  width: fit-content;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  line-break: veryloose;
+  width: 120px;
+  height: 50px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  background-color: rgba(58, 255, 124, 0);
+  border-color: $color-principal;
+  border-radius: 5px;
+  border-width: 2px;
+  margin-bottom: 20px;
+}
+.btn__top .btn-about {
+  display: flex;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  line-break: veryloose;
+  width: 120px;
+  height: 50px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  background-color: rgba(0, 0, 0, 0.3647058824);
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  border-width: 2px;
 }
 
-.img__desktop {
-  display: none;
-  position: relative;
-  justify-items: center;
-  width: fit-content;
+.btn-demo:hover {
+  background-color: $color-principal;
+  color: black;
+  box-shadow: -3px 22px 30px -12px rgba(228, 219, 255, 0.5);
+  transition: all 0.2s ease-in-out;
 }
+
+.btn-about:hover {
+  background-color: $btn-bg-secundario;
+  color: black;
+  box-shadow: -3px 22px 30px -12px rgba(228, 219, 255, 0.5);
+  transition: all 0.2s ease-in-out;
+}
+
 
 .service__section {
   background-color: #fbf6ff;
@@ -272,11 +232,79 @@ body {
   color: $text-color-terciario;
 }
 
-@media only screen and (min-width: 375px) {
-  .top__section__generic {
-    height: 630px;
+
+.modal-content{
+  display: flex;
+  position: relative;
+  right: 35px;
+  flex-direction: column;
+  width: max-content;
+
+  .modal-body{
+    background-color: black;
+    border-style: none;
+    width: max-content;
+    padding: 0;
+  }
+  
+  .modal-footer{
+    border-style: none;
+    background-color: black;
+  }
+  .modal-header{
+    height: fit-content;
+    background-color: black;
+    border-style: none;
+    }
+    .btn-close{
+      filter: invert(100%);
+    }
+    .modal-title{
+      color: white;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: "Montserrat", sans-serif;
+  }
+  .reel-statement{
+      color: white;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 200;
+      font-family: "Montserrat", sans-serif;
+  }
+  .btn-modal-about{
+    display: block;
+    position: relative;
+    top: -5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: $color-secundario;
+    border-width: 2.5px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 130px;
   }
 
+  .link-cv{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+  }
+  
+  .btn-modal-about:hover{
+    background-color: $color-secundario;
+    border-color: $color-secundario;
+    color: white;
+    box-shadow: -3px 22px 30px -12px rgba(44, 255, 192, 0.5);
+    transition: all 0.1s ease-in-out;
+  }
+}  
+
+
+@media only screen and (min-width: 375px) {
   .service__section {
     padding: 50px 50px 100px 50px;
   }
@@ -294,7 +322,7 @@ body {
   }
   .text1 {
     font-size: 13px;
-    padding: 5px 20px 20px 20px;
+    padding: 5px 20px 0px 20px;
   }
   .footer__section .text3 li {
     margin-left: 35px;
@@ -306,13 +334,10 @@ body {
     width: 100px;
     margin: 20px 100px 0px 130px;
   }
-  
 }
 
+
 @media only screen and (min-width: 425px) {
-  .top__section__generic {
-    height: 630px;
-  }
   .service__section {
     padding: 50px 60px 100px 60px;
   }
@@ -332,6 +357,16 @@ body {
     font-size: 14px;
     padding: 0px 25px 20px 25px;
   }
+
+  .btn__top {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .btn__top .btn-demo {
+    margin-bottom: 0px;
+  }
+
   .footer__section .text3 li {
     margin-left: 55px;
   }
@@ -342,38 +377,24 @@ body {
     width: 100px;
     margin: 20px 100px 0px 150px;
   }
-  
 }
 
+
 @media only screen and (min-width: 768px) {
-
-  .top__section__generic {
-    height: 720px;
-    overflow: hidden;
-  }
-
-  .img__mobile {
-    display: flex;
-    position: relative;
-    justify-items: center;
-    width: 600px;
-    margin: 0px 0px 0px 70px;
-  }
-
   .top__section__generic .tittle1 {
     font-size: 35px;
-    margin: 50px 130px 0px 130px;
+    margin: 50px 100px 0px 100px;
   }
   .top__section__generic .text1 {
     font-size: 14px;
-    margin: 30px 100px 0px 100px;
+    margin: 30px 120px 30px 120px;
   }
 
   .service__section {
-    padding: 50px 60px 100px 60px;
+    padding: 50px 100px 100px 100px;
   }
-  .card-body {
-    padding: 0px 30px 0px 30px;
+  .service__section .card-body {
+    padding: 0px 38px 0px 38px;
     text-align: center;
   }
   .service__section .card-img-top {
@@ -412,30 +433,10 @@ body {
     justify-content: center;
     margin: 20px 0px 0px 0px;
   }
-  
 }
 
+
 @media only screen and (min-width: 1024px) {
-
-  .top__section__generic {
-    height: 520px;
-    overflow: hidden;
-  }
-
-  .img__mobile {
-    display: none;
-    position: relative;
-    justify-items: center;
-    width: 600px;
-    margin: 0px 0px 0px 70px;
-  }
-
-  .img__desktop {
-    display: flex;
-    position: relative;
-    top: 20px;
-  }
-
   .top__section__generic .tittle1 {
     font-size: 35px;
     margin: 50px 20px 0px 100px;
@@ -443,22 +444,21 @@ body {
   }
   .top__section__generic .text1 {
     font-size: 14px;
-    margin: 30px 10px 0px 90px;
+    margin: 30px 10px 40px 90px;
     text-align: left;
   }
 
   .service__section {
     padding: 100px 130px 100px 130px;
   }
-  .card-body {
-    padding: 0px 30px 0px 30px;
+  .service__section .card-body {
+    padding: 0px 50px 0px 50px;
     text-align: center;
   }
   .service__section .card-img-top {
     width:250px;
   }
 
-  
 .footer__section {
   display: flex;
   flex-direction: column;
@@ -489,7 +489,7 @@ body {
 .footer__section .text3 li {
   display: inline-block;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 2.5;
   padding: 0px;
   margin-left: 10px;
@@ -514,31 +514,10 @@ body {
   padding: 0px 0px 0px 48px;
   color: $text-color-terciario;
 }
-  
 }
 
 
 @media only screen and (min-width: 1440px) {
-
-  .top__section__generic {
-    height: 520px;
-    overflow: hidden;
-  }
-
-  .img__mobile {
-    display: none;
-    position: relative;
-    justify-items: center;
-    width: 600px;
-    margin: 0px 0px 0px 70px;
-  }
-
-  .img__desktop {
-    display: flex;
-    position: relative;
-    top: 20px;
-  }
-
   .top__section__generic .tittle1 {
     font-size: 40px;
     margin: 50px 50px 0px 100px;
@@ -546,22 +525,29 @@ body {
   }
   .top__section__generic .text1 {
     font-size: 16px;
-    margin: 30px 50px 0px 90px;
+    margin: 30px 50px 40px 90px;
     text-align: left;
   }
 
-  .service__section {
-    padding: 100px 130px 100px 130px;
+  .btn__top {
+    justify-content: flex-start;
+    margin-left: 114px;
+    flex-direction: row;
+    gap: 20px;
   }
-  .card-body {
-    padding: 0px 30px 0px 30px;
+
+  .service__section {
+    padding: 100px 230px 100px 230px;
+  }
+
+  .service__section .card-body {
+    padding: 0px 80px 0px 80px;
     text-align: center;
   }
   .service__section .card-img-top {
-    width:250px;
+    width:350px;
   }
 
-  
 .footer__section {
   display: flex;
   flex-direction: column;
@@ -620,4 +606,3 @@ body {
 }
   
 }
-

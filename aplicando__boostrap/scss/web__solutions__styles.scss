@@ -1,68 +1,7 @@
-@import"./variables";
-@import"./navbar.css";
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
-  box-sizing: border-box;
-  color: white;
-  height: 100vh;
-  width: 100%;
-}
+@import"./general";
 
 .top__section__generic {
-  display: flex;
-  flex-direction: column;
-  font-family: "Montserrat", sans-serif;
-  background: $background-primario;
-  height: 680px;
-  overflow-x: hidden;
-}
-.top__section__generic .top__content__generic {
-  display: flex;
-  text-align: center;
-  padding-top: 50px;
-}
-.top__section__generic .left__info {
-  padding-left: 0px;
-  align-items: center;
-  text-align: center;
-}
-.top__section__generic .tittle1 {
-  display: block;
-  font-size: 28px;
-  font-weight: 700;
-  line-break: veryloose;
-  font-family: "Montserrat", sans-serif;
-  margin: 40px 50px 0px 50px;
-  color: $color-principal;
-}
-.top__section__generic .text1 {
-  display: block;
-  font-size: 13px;
-  font-weight: 200;
-  line-break: veryloose;
-  line-height: 1.8;
-  font-family: "Montserrat", sans-serif;
-  margin: 30px 40px 0px 40px;
-}
-
-.img__mobile {
-  display: flex;
-  position: relative;
-  justify-items: center;
-  width: fit-content;
-}
-
-.img__desktop {
-  display: none;
-  position: relative;
-  justify-items: center;
-  width: fit-content;
+  @include top_section(680px, 740px, 690px, 780px, 520px, 520px);
 }
 
 .service__section {
@@ -85,11 +24,11 @@ body {
 .service__section .card-img-top {
   display: flex;
   position: relative;
-  width: 250px;
+  width: 200px;
   justify-self: center;
   align-self: center;
   background-color: black;
-  border-radius: 0px 0px 0px 0px;
+  border-radius: 0px 0px 50px 50px;
   overflow: hidden;
 }
 
@@ -232,9 +171,6 @@ body {
 }
 
 @media only screen and (min-width: 375px) {
-  .top__section__generic {
-    height: 670px;
-  }
 
   .service__section {
     padding: 50px 50px 100px 50px;
@@ -244,7 +180,7 @@ body {
     text-align: center;
   }
   .service__section .card-img-top {
-    width: 275px;
+    width: 200px;
   }
 
   .tittle1 {
@@ -269,9 +205,6 @@ body {
 }
 
 @media only screen and (min-width: 425px) {
-  .top__section__generic {
-    height: 650px;
-  }
   .service__section {
     padding: 50px 60px 100px 60px;
   }
@@ -280,7 +213,7 @@ body {
     text-align: center;
   }
   .service__section .card-img-top {
-    width: 305px;
+    width:250px;
   }
   
   .tittle1 {
@@ -305,27 +238,13 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-
-  .top__section__generic {
-    height: 780px;
-    overflow: hidden;
-  }
-
-  .img__mobile {
-    display: flex;
-    position: relative;
-    justify-items: center;
-    width: 600px;
-    margin: 0px 0px 0px 70px;
-  }
-
   .top__section__generic .tittle1 {
     font-size: 35px;
-    margin: 50px 100px 0px 100px;
+    margin: 50px 130px 0px 130px;
   }
   .top__section__generic .text1 {
     font-size: 14px;
-    margin: 30px 120px 0px 120px;
+    margin: 30px 100px 0px 100px;
   }
 
   .service__section {
@@ -336,7 +255,7 @@ body {
     text-align: center;
   }
   .service__section .card-img-top {
-    width: 315px;
+    width:250px;
   }
 
   .footer__section .text3 li {
@@ -375,26 +294,6 @@ body {
 }
 
 @media only screen and (min-width: 1024px) {
-
-  .top__section__generic {
-    height: 520px;
-    overflow: hidden;
-  }
-
-  .img__mobile {
-    display: none;
-    position: relative;
-    justify-items: center;
-    width: 600px;
-    margin: 0px 0px 0px 70px;
-  }
-
-  .img__desktop {
-    display: flex;
-    position: relative;
-    top: 20px;
-  }
-
   .top__section__generic .tittle1 {
     font-size: 35px;
     margin: 50px 20px 0px 100px;
@@ -414,7 +313,7 @@ body {
     text-align: center;
   }
   .service__section .card-img-top {
-    width: 235px;
+    width:250px;
   }
 
   
@@ -478,26 +377,6 @@ body {
 
 
 @media only screen and (min-width: 1440px) {
-
-  .top__section__generic {
-    height: 520px;
-    overflow: hidden;
-  }
-
-  .img__mobile {
-    display: none;
-    position: relative;
-    justify-items: center;
-    width: 600px;
-    margin: 0px 0px 0px 70px;
-  }
-
-  .img__desktop {
-    display: flex;
-    position: relative;
-    top: 20px;
-  }
-
   .top__section__generic .tittle1 {
     font-size: 40px;
     margin: 50px 50px 0px 100px;
@@ -517,7 +396,7 @@ body {
     text-align: center;
   }
   .service__section .card-img-top {
-    width: 385px;
+    width:250px;
   }
 
   

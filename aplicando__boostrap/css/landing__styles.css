@@ -94,7 +94,7 @@ body {
   flex-direction: column;
   font-family: "Montserrat", sans-serif;
   background: linear-gradient(0deg, #b75dff 0%, #9e24ff 25%, black 94%);
-  height: 680px;
+  height: 820px;
   overflow-x: hidden; }
   .top__section__generic .top__content__generic {
     display: flex;
@@ -122,20 +122,77 @@ body {
     margin: 30px 40px 0px 40px; }
   @media (min-width: 375px) {
     .top__section__generic {
-      height: 740px; } }
+      height: 850px; } }
   @media (min-width: 425px) {
     .top__section__generic {
-      height: 690px; } }
+      height: 820px; } }
   @media (min-width: 768px) {
     .top__section__generic {
       height: 780px;
       overflow: hidden; } }
   @media (min-width: 1024px) {
     .top__section__generic {
-      height: 520px; } }
+      height: 800px; } }
   @media (min-width: 1440px) {
     .top__section__generic {
-      height: 520px; } }
+      height: 600px; } }
+
+.btn__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.btn__top .btn-demo {
+  display: flex;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  line-break: veryloose;
+  width: 120px;
+  height: 50px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  background-color: rgba(58, 255, 124, 0);
+  border-color: #00FFAF;
+  border-radius: 5px;
+  border-width: 2px;
+  margin-bottom: 20px; }
+
+.btn__top .btn-about {
+  display: flex;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  line-break: veryloose;
+  width: 120px;
+  height: 50px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  background-color: rgba(0, 0, 0, 0.364706);
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  border-width: 2px; }
+
+.btn-demo:hover {
+  background-color: #00FFAF;
+  color: black;
+  box-shadow: -3px 22px 30px -12px rgba(228, 219, 255, 0.5);
+  transition: all 0.2s ease-in-out; }
+
+.btn-about:hover {
+  background-color: #f1e4ff;
+  color: black;
+  box-shadow: -3px 22px 30px -12px rgba(228, 219, 255, 0.5);
+  transition: all 0.2s ease-in-out; }
 
 .service__section {
   background-color: #fbf6ff;
@@ -294,6 +351,62 @@ body {
   padding: 0px 0px 0px 0px;
   color: #a193ac; }
 
+.modal-content {
+  display: flex;
+  position: relative;
+  right: 35px;
+  flex-direction: column;
+  width: max-content; }
+  .modal-content .modal-body {
+    background-color: black;
+    border-style: none;
+    width: max-content;
+    padding: 0; }
+  .modal-content .modal-footer {
+    border-style: none;
+    background-color: black; }
+  .modal-content .modal-header {
+    height: fit-content;
+    background-color: black;
+    border-style: none; }
+  .modal-content .btn-close {
+    filter: invert(100%); }
+  .modal-content .modal-title {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif; }
+  .modal-content .reel-statement {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 200;
+    font-family: "Montserrat", sans-serif; }
+  .modal-content .btn-modal-about {
+    display: block;
+    position: relative;
+    top: -5px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #9E24FF;
+    border-width: 2.5px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 130px; }
+  .modal-content .link-cv {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500; }
+  .modal-content .btn-modal-about:hover {
+    background-color: #9E24FF;
+    border-color: #9E24FF;
+    color: white;
+    box-shadow: -3px 22px 30px -12px rgba(44, 255, 192, 0.5);
+    transition: all 0.1s ease-in-out; }
+
 @media only screen and (min-width: 375px) {
   .service__section {
     padding: 50px 50px 100px 50px; }
@@ -307,7 +420,7 @@ body {
     padding: 10px 5px 0px 5px; }
   .text1 {
     font-size: 13px;
-    padding: 5px 20px 20px 20px; }
+    padding: 5px 20px 0px 20px; }
   .footer__section .text3 li {
     margin-left: 35px; }
   .footer__section .social__icons {
@@ -331,6 +444,11 @@ body {
   .text1 {
     font-size: 14px;
     padding: 0px 25px 20px 25px; }
+  .btn__top {
+    flex-direction: row;
+    gap: 20px; }
+  .btn__top .btn-demo {
+    margin-bottom: 0px; }
   .footer__section .text3 li {
     margin-left: 55px; }
   .footer__section .social__icons {
@@ -343,14 +461,14 @@ body {
 @media only screen and (min-width: 768px) {
   .top__section__generic .tittle1 {
     font-size: 35px;
-    margin: 50px 150px 0px 150px; }
+    margin: 50px 100px 0px 100px; }
   .top__section__generic .text1 {
     font-size: 14px;
-    margin: 30px 100px 0px 100px; }
+    margin: 30px 120px 30px 120px; }
   .service__section {
-    padding: 50px 60px 100px 60px; }
-  .card-body {
-    padding: 0px 30px 0px 30px;
+    padding: 50px 100px 100px 100px; }
+  .service__section .card-body {
+    padding: 0px 38px 0px 38px;
     text-align: center; }
   .service__section .card-img-top {
     width: 250px; }
@@ -385,12 +503,12 @@ body {
     text-align: left; }
   .top__section__generic .text1 {
     font-size: 14px;
-    margin: 30px 10px 0px 90px;
+    margin: 30px 10px 40px 90px;
     text-align: left; }
   .service__section {
     padding: 100px 130px 100px 130px; }
-  .card-body {
-    padding: 0px 30px 0px 30px;
+  .service__section .card-body {
+    padding: 0px 50px 0px 50px;
     text-align: center; }
   .service__section .card-img-top {
     width: 250px; }
@@ -419,7 +537,7 @@ body {
   .footer__section .text3 li {
     display: inline-block;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 2.5;
     padding: 0px;
     margin-left: 10px; }
@@ -447,15 +565,20 @@ body {
     text-align: left; }
   .top__section__generic .text1 {
     font-size: 16px;
-    margin: 30px 50px 0px 90px;
+    margin: 30px 50px 40px 90px;
     text-align: left; }
+  .btn__top {
+    justify-content: flex-start;
+    margin-left: 114px;
+    flex-direction: row;
+    gap: 20px; }
   .service__section {
-    padding: 100px 130px 100px 130px; }
-  .card-body {
-    padding: 0px 30px 0px 30px;
+    padding: 100px 230px 100px 230px; }
+  .service__section .card-body {
+    padding: 0px 80px 0px 80px;
     text-align: center; }
   .service__section .card-img-top {
-    width: 250px; }
+    width: 350px; }
   .footer__section {
     display: flex;
     flex-direction: column;
