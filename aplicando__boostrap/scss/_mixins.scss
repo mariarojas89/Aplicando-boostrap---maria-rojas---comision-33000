@@ -34,24 +34,24 @@
     margin: 30px 40px 0px 40px;
   }
 
-  @media (min-width: map.get($breakpoints, "xs")) {
+  @media (min-width: map-get($breakpoints, "xs")) {
     height: $xs-height;
   }
 
-  @media (min-width: map.get($breakpoints, "sm")) {
+  @media (min-width: map-get($breakpoints, "sm")) {
     height: $sm-height;
   }
 
-  @media (min-width: map.get($breakpoints, "md")) {
+  @media (min-width: map-get($breakpoints, "md")) {
     height: $md-height;
     overflow: hidden;
   }
 
-  @media (min-width: map.get($breakpoints, "lg")) {
+  @media (min-width: map-get($breakpoints, "lg")) {
     height: $lg-height;
   }
 
-  @media (min-width: map.get($breakpoints, "xl")) {
+  @media (min-width: map-get($breakpoints, "xl")) {
     height: $xl-height;
   }
 }
