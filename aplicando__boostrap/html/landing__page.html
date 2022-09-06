@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/landing__styles.css">
+    <link rel="stylesheet" href="../css/variables/landing__styles.css">
     <title>Airam Portfolio</title>
 </head>
 <body>
@@ -48,15 +48,15 @@
                     <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
                         <div class="left__info">
                             <img class="img__mobile img-fluid" src="../assets/tablet-sized_S1E9_Syfy.jpg" alt="">
-                            <h1 class="tittle1">WELCOME <span class="tittle-small">DAYDREAMERS!</span></h1>
+                            <h1 class="tittle1">WELCOME DAYDREAMERS!</h1>
                             <P class="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis mollitia 
                             laudantium inventore exercitationem deserunt temporibus consequatur at 
                             corrupti natus blanditiis ipsam, adipisci veniam dolore dicta, nulla odit?
                             Nobis, architecto nihil.</P>
                         </div>
                         <div class="btn__top"> 
-                          <a class="btn-demo"  href="#">DEMOREEL</a>
-                          <a class="btn-about"  href="#">ABOUT ME</a>
+                          <a class="btn-demo"  data-bs-toggle="modal" href="#exampleModalToggle1" role="button">DEMOREEL</a>
+                          <a class="btn-about"  data-bs-toggle="modal" href="#exampleModalToggle2" role="button">ABOUT ME</a>
                       </div>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
@@ -79,7 +79,7 @@
                       <p class="card-text">A first powerful visual impression is a must if you want to leave an impact on your desired audience.</p>
                     </div>
                     <div class="cards__btn"> 
-                        <a class="btn-card"  href="#">EXPLORE</a>
+                        <a class="btn-card"  href="../html/graphic__design__page.html">EXPLORE</a>
                     </div>
                 </div>
                 </div>
@@ -92,7 +92,7 @@
                       <p class="card-text">In this era of digital strategy & marketing, a lot of animation is utilized for promotion amidst the target audience.</p>
                     </div>
                     <div class="cards__btn"> 
-                        <a class="btn-card"  href="#">EXPLORE</a>
+                        <a class="btn-card"  href="../html/animation__page.html">EXPLORE</a>
                     </div>
                 </div>
                 </div>
@@ -105,7 +105,7 @@
                       <p class="card-text">Empowering users with capabilities that sets them up for success, not just in their present but in the future. </p>
                     </div>
                     <div class="cards__btn"> 
-                        <a class="btn-card"  href="#">EXPLORE</a>
+                        <a class="btn-card"  href="../html/digital__learning__page.html">EXPLORE</a>
                     </div>
                 </div>
                 </div>
@@ -118,7 +118,7 @@
                       <p class="card-text">The more user-friendly your website is, the more likely it is that people will engage and take the desired action. </p>
                     </div>
                     <div class="cards__btn"> 
-                        <a class="btn-card"  href="#">EXPLORE</a>
+                        <a class="btn-card"  href="../html/web__solutions__page.html">EXPLORE</a>
                     </div>
                 </div>
                 </div>
@@ -146,6 +146,41 @@
           </div>
       </footer>
     </main>
+
+    <div class="modal fade" id="exampleModalToggle1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalToggleLabel">Demoreel</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-HvFSengV94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="modal-footer">
+            <p class="reel-statement">Animated extract from my favorite motion graphic pieces from this year</p>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalToggleLabel">Demoreel</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/x6nXT1s-lNU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div class="modal-footer">
+            <div class="modal-footer">
+              <button class="btn-modal-about"> <a class="link-cv" href="https://drive.google.com/file/d/1BgpQwnuv8QoJkGXei5kkG4AZ-qkWe5pB/view?usp=sharing" download="proposed_file_name">Link to my CV</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
     
 
           
